@@ -22,6 +22,9 @@ root@edison:~/giekis#
 
 
 ```sh
+root@edison:~/giekis# ls
+LICENSE  README.md  core
+root@edison:~/giekis# 
 ```
 
 ```sh
