@@ -12,6 +12,8 @@ root@edison:~#
 ```
 
 ```sh
+root@edison:~# cd giekis/
+root@edison:~/giekis# 
 ```
 
 ```sh
