@@ -10,8 +10,9 @@ import pyupm_i2clcd as lcd
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-light = grove.GroveLight(0)
+button = grove.GroveButton(8)
 display = lcd.Jhd1313m1(0, 0x3E, 0x62)
+light = grove.GroveLight(0)
 
 def functionLight(bot, update):
     luxes = light.value()
@@ -41,6 +42,9 @@ if __name__ == '__main__':
     updater.start_polling()
 
     while True:
+
+        if button.value() is 1:
+            print "Button!"
 
         luxes = light.value()
 
