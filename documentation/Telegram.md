@@ -10,7 +10,7 @@ They call me the Botfather, I can help you create and set up Telegram bots. Plea
 https://core.telegram.org/bots
 ```
 
-## Bot Creation
+## BotFather Bot Creation
 
 ```sh
 Abraham:
