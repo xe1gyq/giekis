@@ -1,0 +1,6 @@
+import pyupm_th02
+th02 = pyupm_th02.TH02(6,0x40)
+print th02.name()
+print th02.getTemperature()
+print th02.getTemperature()
+th02.getStatus()
