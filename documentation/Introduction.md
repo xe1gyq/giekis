@@ -16,6 +16,11 @@ root@edison:~# cd giekis/
 root@edison:~/giekis# 
 ```
 
+## Core
+
+[Core](https://xe1gyq.gitbooks.io/core/content/)
+
+
 ```sh
 ```
 
