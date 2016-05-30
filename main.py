@@ -7,6 +7,7 @@ import sys
 import time
 
 import pyupm_grove as grove
+import pyupm_grovespeaker as upmGrovespeaker
 import pyupm_i2clcd as lcd
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
@@ -26,10 +27,15 @@ credentials.read(credentialsfile)
 button = grove.GroveButton(8)
 display = lcd.Jhd1313m1(0, 0x3E, 0x62)
 light = grove.GroveLight(0)
+speaker = upmGrovespeaker.GroveSpeaker(6)
 
 def functionLight(bot, update):
     luxes = light.value()
     bot.sendMessage(update.message.chat_id, text='Light ' + str(luxes))
+
+def functionSpeaker(bot, update):
+    speaker.playSound('c', True, "med")
+    bot.sendMessage(update.message.chat_id, text='Sound Reproduced!')
 
 def functionEcho(bot, update):
     bot.sendMessage(update.message.chat_id, text=update.message.text)
@@ -60,11 +66,18 @@ def witaiLight(session_id, context):
     context['forecast'] = 'sunny'
     return context
 
+def witaiSpeaker(session_id, context):
+    print "Play Sound"
+    speaker.playSound('c', True, "med")
+    context['forecast'] = 'sunny'
+    return context
+
 actions = {
     'say': say,
     'merge': merge,
     'error': error,
     'witaiLight': witaiLight,
+    'witaiSpeaker': witaiSpeaker
 }
 
 if __name__ == '__main__':
@@ -74,6 +87,7 @@ if __name__ == '__main__':
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("light", functionLight))
+    dp.add_handler(CommandHandler("speaker", functionSpeaker))
     dp.add_handler(MessageHandler([Filters.text], functionEcho))
 
     updater.start_polling()
