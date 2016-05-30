@@ -53,5 +53,4 @@ client = Wit(access_token, actions)
 
 session_id = 'my-user-id-42'
 client.run_actions(session_id, 'light value', {})
-
 ```
