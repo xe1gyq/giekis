@@ -23,6 +23,18 @@ root@edison:~/giekis#
 [Core](https://xe1gyq.gitbooks.io/core/content/)
 
 ```sh
+root@edison:~/giekis# git clone https://github.com/xe1gyq/core.git
+Cloning into 'core'...
+remote: Counting objects: 1109, done.
+remote: Compressing objects: 100% (171/171), done.
+remote: Total 1109 (delta 93), reused 0 (delta 0), pack-reused 924
+Receiving objects: 100% (1109/1109), 217.79 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (605/605), done.
+Checking connectivity... done.
+root@edison:~/giekis#
+```
+
+```sh
 root@edison:~/giekis# ls
 LICENSE  README.md  core
 root@edison:~/giekis# 
