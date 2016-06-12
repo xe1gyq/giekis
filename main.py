@@ -96,7 +96,6 @@ if __name__ == '__main__':
     client = Wit(credential, actions)
 
     session_id = 'my-user-id-42'
-    display.setCursor(0,0)
 
     while True:
 
@@ -105,10 +104,14 @@ if __name__ == '__main__':
         display.setColor(luxes, luxes, luxes)
 
         if button.value() is 1:
-            isay("english", "Hi! How can I help?")
+            isay("english", "Hi! This is GiekIe! How can I help?")
             message = recognizeSpeech()
+            display.clear()
+            display.setCursor(0,0)
             display.write(str(message))
             client.run_actions(session_id, message, {})
+
+    #updater.idle()
 
 '''
         luxes = light.value()
@@ -118,5 +121,3 @@ if __name__ == '__main__':
         print 'Light ' + str(luxes)
         time.sleep(1)
 '''
-
-#    updater.idle()
