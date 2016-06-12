@@ -19,8 +19,8 @@ root@edison:~/giekis#
 ```
 
 ```sh
-root@edison:~/giekis# cat requirements.opkg                                                      
-opkg install python-opencv                                                                       
+root@edison:~/giekis# cat requirements.opkg
+opkg install python-opencv                                                      
 ```
 
 ```sh
@@ -28,10 +28,10 @@ root@edison:~/giekis# opkg install python-opencv
 ```
 
 ```sh
-root@edison:~/giekis# cat requirements.pip                                                       
-requests                                                                                         
-future                                                                                           
-python-telegram-bot                                                                              
+root@edison:~/giekis# cat requirements.pip
+requests                                                       
+future
+python-telegram-bot
 pyaudio                                                                                          
 ```
 
