@@ -7,6 +7,22 @@
 root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/giekis/master/setup.sh -o - | sh
 ```
 
+### Automated
+
+root@edison:~/giekis# cat ~/.asoundrc
+pcm.!default {
+        type asym
+        playback.pcm {
+                type plug
+                slave.pcm "hw:3,0"
+        }
+        capture.pcm {
+                type plug
+                slave.pcm "hw:2,0"
+        }
+}
+
+
 ## Manual
 
 ```sh
@@ -46,8 +62,6 @@ wolframalpha
 ```sh
 root@edison:~/giekis# pip install -r requirements.pip
 ```
-
-## Core
 
 [Core](https://xe1gyq.gitbooks.io/core/content/)
 
