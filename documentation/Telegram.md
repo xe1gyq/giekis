@@ -2,9 +2,7 @@
 
 > Telegram Web Version 0.5.4 [Homepage](https://web.telegram.org/#/im)
 
-> Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/)
-
-- [Python Telegram Bot](https://github.com/python-telegram-bot)
+> Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/) [Github](https://github.com/python-telegram-bot)
 
 ![Python Telegram Bot](https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo/png/ptb-logo_240.png)
 
