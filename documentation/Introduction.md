@@ -79,7 +79,8 @@ root@edison:~/giekis#
 
 ```sh
 root@edison:~/giekis# ls
-LICENSE  README.md  core
+LICENSE    SUMMARY.md  documentation  main.py            requirements.pip
+README.md  core        examples       requirements.opkg  setup.sh
 root@edison:~/giekis# 
 ```
 
