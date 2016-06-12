@@ -4,6 +4,7 @@
 
 ```
 root@edison:~/giekis# pip install requests --upgrade
+root@edison:~/giekis# pip install futures --upgrade
 root@edison:~/giekis# pip install urllib --upgrade
 root@edison:~/giekis# pip install future --upgrade
 root@edison:~/giekis# pip install python-telegram-bot --upgrade
