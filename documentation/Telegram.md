@@ -18,7 +18,7 @@ Abraham:
 Alright, a new bot. How are we going to call it? Please choose a name for your bot.
 
 [6:02:03 PM] Abraham:
-Gikies
+Giekies
 
 [6:02:05 PM] BotFather:
 Good. Now let's choose a username for your bot. It must end in `bot`. Like this, for example: TetrisBot or tetris_bot.
