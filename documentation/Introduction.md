@@ -61,23 +61,3 @@ LICENSE  README.md  core
 root@edison:~/giekis# 
 ```
 
-## Clone Repository
-
-```sh
-```
-
-```sh
-```
-
-```sh
-```
-
-```sh
-```
-
-```sh
-```
-
-```sh
-```
-
