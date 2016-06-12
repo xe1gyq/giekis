@@ -32,7 +32,8 @@ root@edison:~/giekis# cat requirements.pip
 requests                                                       
 future
 python-telegram-bot
-pyaudio                                                                                          
+pyaudio
+wolframalpha
 ```
 
 ```sh
