@@ -22,6 +22,10 @@ root@edison:~/giekis#
 root@edison:~/giekis# opkg install python-opencv
 ```
 
+```
+root@edison:~/giekis# pip install -r requirements.pip
+```
+
 ## Core
 
 [Core](https://xe1gyq.gitbooks.io/core/content/)
