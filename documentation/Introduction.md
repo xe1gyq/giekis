@@ -17,7 +17,7 @@ pcm.!default {
                 slave.pcm "hw:2,0"
         }
 }
-```sh
+```
 
 # Setup Automated
 
