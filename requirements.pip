@@ -1,5 +1,5 @@
 requests
 future
 python-telegram-bot
-python-opencv
 wolframalpha
+pyaudio
