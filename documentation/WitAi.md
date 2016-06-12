@@ -9,7 +9,6 @@
     - Open Your data will be open to the community
     - + Create App
 
-
 - Create a Story 
   - What's the light?
 
