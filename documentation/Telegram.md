@@ -2,6 +2,14 @@
 
 > Telegram Web Version 0.5.4 [Homepage](https://web.telegram.org/#/im)
 
+![Telegram](https://telegram.org/img/t_logo.png)
+
+# Python Telegram Bot Library
+
+> Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/) [Github](https://github.com/python-telegram-bot)
+
+![Python Telegram Bot](https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo/png/ptb-logo_240.png)
+
 ```sh
 root@edison:~/GiekIs# pip install requests --upgrade
 root@edison:~/GiekIs# pip install future --upgrade
