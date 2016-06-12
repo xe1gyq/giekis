@@ -24,7 +24,7 @@ opkg install python-opencv
 ```
 
 ```sh
-root@edison:~/giekis# opkg install python-opencv
+root@edison:~/giekis# sh requirements.opkg
 ```
 
 ```sh
