@@ -2,7 +2,7 @@
 
 > Telegram Web Version 0.5.4 [Homepage](https://web.telegram.org/#/im)
 
-```
+```sh
 root@edison:~/giekis# pip install requests --upgrade
 root@edison:~/giekis# pip install future --upgrade
 root@edison:~/giekis# pip install python-telegram-bot --upgrade
