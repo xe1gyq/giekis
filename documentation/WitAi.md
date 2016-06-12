@@ -16,6 +16,10 @@
 - Bot executes...
   - witaiLight
 
+```sh
+root@edison:~# pip install wit
+```
+
 ```python
 import sys
 from wit import Wit
