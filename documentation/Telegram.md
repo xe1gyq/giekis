@@ -6,6 +6,8 @@
 
 - [Python Telegram Bot](https://github.com/python-telegram-bot)
 
+![Python Telegram Bot](https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo/png/ptb-logo_240.png)
+
 ```sh
 root@edison:~/GiekIs# pip install requests --upgrade
 root@edison:~/GiekIs# pip install future --upgrade
