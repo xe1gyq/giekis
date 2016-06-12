@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
 * [Telegram](documentation/Telegram.md)
 * [Wit.Ai](documentation/WitAi.md)
