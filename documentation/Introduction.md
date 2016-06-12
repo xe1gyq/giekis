@@ -20,7 +20,7 @@ pcm.!default {
 # Setup Automated
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/giekis/master/setup.sh -o - | sh
+root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/GiekIs/master/setup.sh -o - | sh
 ```
 
 # Setup Manual
