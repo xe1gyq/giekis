@@ -1,14 +1,8 @@
 # Introduction
 
-
-## Automated
+# Audio Setup
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/giekis/master/setup.sh -o - | sh
-```
-
-### Automated
-
 root@edison:~/giekis# cat ~/.asoundrc
 pcm.!default {
         type asym
@@ -21,7 +15,13 @@ pcm.!default {
                 slave.pcm "hw:2,0"
         }
 }
+```sh
 
+# Automated
+
+```sh
+root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/giekis/master/setup.sh -o - | sh
+```
 
 ## Manual
 
