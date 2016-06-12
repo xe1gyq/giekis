@@ -18,6 +18,10 @@ root@edison:~# cd giekis/
 root@edison:~/giekis# 
 ```
 
+```sh
+root@edison:~/giekis# opkg install python-opencv
+```
+
 ## Core
 
 [Core](https://xe1gyq.gitbooks.io/core/content/)
