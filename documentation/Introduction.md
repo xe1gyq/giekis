@@ -17,13 +17,13 @@ pcm.!default {
 }
 ```sh
 
-# Automated
+# Setup Automated
 
 ```sh
 root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/giekis/master/setup.sh -o - | sh
 ```
 
-## Manual
+# Setup Manual
 
 ```sh
 root@edison:~# git clone https://github.com/xe1gyq/giekis.git
