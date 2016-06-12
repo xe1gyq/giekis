@@ -22,7 +22,7 @@ from core.xvoice import playAudio
 from core.xwolfram import askWolfram
 
 credentials = ConfigParser.ConfigParser()
-credentialsfile = "credentials"
+credentialsfile = "core/configuration/credentials.config"
 credentials.read(credentialsfile)
 button = grove.GroveButton(8)
 display = lcd.Jhd1313m1(0, 0x3E, 0x62)
