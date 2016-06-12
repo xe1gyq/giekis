@@ -22,7 +22,15 @@ root@edison:~/giekis#
 root@edison:~/giekis# opkg install python-opencv
 ```
 
+```sh
+root@edison:~/giekis# cat requirements.pip                                                       
+requests                                                                                         
+future                                                                                           
+python-telegram-bot                                                                              
+pyaudio                                                                                          
 ```
+
+```sh
 root@edison:~/giekis# pip install -r requirements.pip
 ```
 
