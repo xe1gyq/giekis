@@ -26,8 +26,6 @@ appid =
 [google]
 api_key = 
     
-# Gmail
-#
 [gmail]
 username = 
 password = 
