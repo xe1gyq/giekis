@@ -4,4 +4,5 @@
 * [Introduction](documentation/Introduction.md)
 * [Telegram](documentation/Telegram.md)
 * [Wit.Ai](documentation/WitAi.md)
+* Credentials
 
