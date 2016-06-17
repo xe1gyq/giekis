@@ -23,8 +23,6 @@ mashapekey =
 [wolframalpha]
 appid = 
 
-# Google
-#
 [google]
 api_key = 
     
