@@ -2,7 +2,6 @@
 
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
-   * Audio
 * [Credentials](documentation/Credentials.md)
    * [Gmail](documentation/Gmail.md)
    * [Google](documentation/Google.md)
