@@ -53,6 +53,8 @@ google-api-python-client
 
 ```sh
 root@edison:~/GiekIs# pip install -r requirements.pip
+...
+root@edison:~/GiekIs# 
 ```
 
 [Core](https://xe1gyq.gitbooks.io/core/content/)
