@@ -11,9 +11,9 @@
    * [VoiceRss](documentation/VoiceRss.md)
    * [Wit.Ai](documentation/WitAi.md)
    * [WolframAlpha](documentation/WolframAlpha.md)
-* [Credentials](documentation/Credentials.md)
 * Setup
    * [Automated](documentation/Automated.md)
    * [Manual](Manual.md)
+* [Credentials](documentation/Credentials.md)
 * [Audio](documentation/Audio.md)
 
