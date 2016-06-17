@@ -10,6 +10,6 @@
    * [Twitter](documentation/Twitter.md)
    * [VoiceRss](documentation/VoiceRss.md)
    * [Wit.Ai](documentation/WitAi.md)
+   * [WolframAlpha](documentation/WolframAlpha.md)
    * Tbd
-* [WolframAlpha](documentation/WolframAlpha.md)
 
