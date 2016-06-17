@@ -7,8 +7,6 @@ root@edison:~/myproject# nano core/configuration/credentials.config
 ```
 
 ```sh
-# IoTPy File Configuration
-
 [twitter]
 consumer_key = 
 consumer_secret = 
