@@ -1,6 +1,7 @@
 # WolframAlpha
 
-> Wolfram|Alpha is more than a search engine. It gives you access to the world's facts and data and calculates answers across a range of topics, including science 
+> Wolfram|Alpha introduces a fundamentally new way to get knowledge and answers—
+not by searching the web, but by doing dynamic computations based on a vast collection of built-in data, algorithms, and methods.
 
 ```sh
 # WolframAlpha
