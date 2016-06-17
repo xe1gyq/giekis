@@ -32,8 +32,6 @@ api_key =
 username = 
 password = 
     
-# Telegram
-#
 [telegram]
 token = 
 
