@@ -1,7 +1,7 @@
 # Credentials
 
 ```sh
-root@edison:~/myproject# nano core/configuration/credentials.config
+root@edison:~/GiekIs# nano core/configuration/credentials.config
 ```
 
 ```sh
@@ -38,26 +38,26 @@ accesstoken=
 ```
 
 ```sh
-root@edison:~/myproject# nano core/configuration/voicerss.ak
+root@edison:~/GiekIs# nano core/configuration/voicerss.ak
 
 [Write Voicerss ApiKey]
 
 ```
 
 ```sh
-root@edison:~/myproject# nano core/configuration/voicerss.mk
+root@edison:~/GiekIs# nano core/configuration/voicerss.mk
 
 [Write Mashape MashapeKey]
 
 ```
 
 ```sh
-root@edison:~/myproject# ls core/configuration/
+root@edison:~/GiekIs# ls core/configuration/
 credentials.config  haarcascade_frontalface_alt.xml  voicerss.ak  voicerss.mk
 ```
 
 ## Google Credentials
 
 ```sh
-root@edison:~/myproject# export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
+export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
 ```
