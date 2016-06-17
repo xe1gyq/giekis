@@ -4,9 +4,9 @@
 * [Introduction](documentation/Introduction.md)
 * APIs
    * [Gmail](documentation/Gmail.md)
+   * [Google](documentation/Google.md)
    * Tbd
 * [Credentials](documentation/Credentials.md)
-   * [Google](documentation/Google.md)
    * [Mashape](documentation/Mashape.md)
    * [Telegram](documentation/Telegram.md)
    * [Twitter](documentation/Twitter.md)
