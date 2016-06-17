@@ -8,8 +8,8 @@
    * [Mashape](documentation/Mashape.md)
    * [Telegram](documentation/Telegram.md)
    * [Twitter](documentation/Twitter.md)
+   * [VoiceRss](documentation/VoiceRss.md)
    * Tbd
-* [VoiceRss](documentation/VoiceRss.md)
 * [Wit.Ai](documentation/WitAi.md)
 * [WolframAlpha](documentation/WolframAlpha.md)
 
