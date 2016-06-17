@@ -65,11 +65,14 @@ root@edison:~/GiekIs# sh requirements.opkg
 
 ```sh
 root@edison:~/GiekIs# cat requirements.pip
-requests                                                       
+requests
 future
 python-telegram-bot
-pyaudio
 wolframalpha
+pyaudio
+twython
+SpeechRecognition
+google-api-python-client
 ```
 
 ```sh
