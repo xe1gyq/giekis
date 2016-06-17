@@ -35,6 +35,8 @@ opkg install fswebcam
 
 ```sh
 root@edison:~/GiekIs# sh requirements.opkg
+...
+root@edison:~/GiekIs# 
 ```
 
 ```sh
