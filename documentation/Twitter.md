@@ -1,6 +1,6 @@
 # Twitter
 
-> Get real-time updates about what matters to you. [Homepage]()
+> Twitter is your window to the world. Get real-time updates about what matters to you. [Homepage](https://www.twitter.com)
 
 ```sh
 # Twitter
