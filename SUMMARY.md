@@ -5,5 +5,5 @@
 * [Telegram](documentation/Telegram.md)
 * [Wit.Ai](documentation/WitAi.md)
 * [Credentials](documentation/Credentials.md)
-* Twitter
+* [Twitter](documentation/Twitter.md)
 
