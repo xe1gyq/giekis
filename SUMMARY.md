@@ -2,6 +2,7 @@
 
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
+* [Credentials](documentation/Credentials.md)
 * [Gmail](documentation/Gmail.md)
 * [Google](documentation/Google.md)
 * [Mashape](documentation/Mashape.md)
@@ -10,5 +11,4 @@
 * [VoiceRss](documentation/VoiceRss.md)
 * [Wit.Ai](documentation/WitAi.md)
 * [WolframAlpha](documentation/WolframAlpha.md)
-* [Credentials](documentation/Credentials.md)
 
