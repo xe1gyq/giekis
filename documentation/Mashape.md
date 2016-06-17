@@ -1,5 +1,7 @@
 # Mashape
 
+> Powering API Driven Software. Developers & DevOps rely on Mashape products to deliver better APIs & Microservices [Homepage](https://www.mashape.com/)
+
 ```sh
 # Mashape
 #
