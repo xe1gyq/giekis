@@ -10,9 +10,9 @@
    * [Twitter](documentation/Twitter.md)
    * [VoiceRss](documentation/VoiceRss.md)
    * [Wit.Ai](documentation/WitAi.md)
+   * [WolframAlpha](documentation/WolframAlpha.md)
    * Tbd
 * [Credentials](documentation/Credentials.md)
-   * [WolframAlpha](documentation/WolframAlpha.md)
 * Setup
    * [Automated](documentation/Automated.md)
    * [Manual](Manual.md)
