@@ -9,9 +9,9 @@
    * [Telegram](documentation/Telegram.md)
    * [Twitter](documentation/Twitter.md)
    * [VoiceRss](documentation/VoiceRss.md)
+   * [Wit.Ai](documentation/WitAi.md)
    * Tbd
 * [Credentials](documentation/Credentials.md)
-   * [Wit.Ai](documentation/WitAi.md)
    * [WolframAlpha](documentation/WolframAlpha.md)
 * Setup
    * [Automated](documentation/Automated.md)
