@@ -3,7 +3,7 @@
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
 * Setup
-   * Automated
+   * [Automated](documentation/Automated.md)
    * [Manual](Manual.md)
 * [Credentials](documentation/Credentials.md)
    * [Gmail](documentation/Gmail.md)
