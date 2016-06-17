@@ -2,9 +2,6 @@
 
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
-* Setup
-   * [Automated](documentation/Automated.md)
-   * [Manual](Manual.md)
 * [Credentials](documentation/Credentials.md)
    * [Gmail](documentation/Gmail.md)
    * [Google](documentation/Google.md)
@@ -14,5 +11,8 @@
    * [VoiceRss](documentation/VoiceRss.md)
    * [Wit.Ai](documentation/WitAi.md)
    * [WolframAlpha](documentation/WolframAlpha.md)
+* Setup
+   * [Automated](documentation/Automated.md)
+   * [Manual](Manual.md)
 * [Audio](documentation/Audio.md)
 
