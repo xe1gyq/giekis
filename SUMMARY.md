@@ -14,6 +14,5 @@
    * [VoiceRss](documentation/VoiceRss.md)
    * [Wit.Ai](documentation/WitAi.md)
    * [WolframAlpha](documentation/WolframAlpha.md)
-   * Tbd
 * [Audio](documentation/Audio.md)
 
