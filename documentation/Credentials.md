@@ -13,13 +13,7 @@ consumer_secret =
 access_token = 
 access_token_secret = 
   
-# VoiceRss
-#
-# Go to www.voicerss.org and sign up
-# Go to API -> Get API Key
-# 
-# apikey = voicerss.ak
-# 
+
 [voicerss]
 apikey = 
 
