@@ -7,5 +7,5 @@
 * [VoiceRss](documentation/VoiceRss.md)
 * [Wit.Ai](documentation/WitAi.md)
 * [Credentials](documentation/Credentials.md)
-* Mashape
+* [Mashape](documentation/Mashape.md)
 
