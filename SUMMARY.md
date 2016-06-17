@@ -2,6 +2,7 @@
 
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
+* Setup
 * [Credentials](documentation/Credentials.md)
    * [Gmail](documentation/Gmail.md)
    * [Google](documentation/Google.md)
@@ -13,5 +14,4 @@
    * [WolframAlpha](documentation/WolframAlpha.md)
    * Tbd
 * [Audio](documentation/Audio.md)
-* Setup
 
