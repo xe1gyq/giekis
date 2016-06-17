@@ -59,5 +59,5 @@ credentials.config  haarcascade_frontalface_alt.xml  voicerss.ak  voicerss.mk
 ## Google Credentials
 
 ```sh
-export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
+root@edison:~/GiekIs# export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
 ```
