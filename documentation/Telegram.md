@@ -1,6 +1,6 @@
 # Telegram
 
-> A new era of messaging. Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+> A new era of messaging. Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. [Homepage]()
 
 > Telegram Web Version 0.5.4 [Homepage](https://web.telegram.org/#/im)
 
