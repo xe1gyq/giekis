@@ -7,6 +7,6 @@
 * [Twitter](documentation/Twitter.md)
 * [VoiceRss](documentation/VoiceRss.md)
 * [Wit.Ai](documentation/WitAi.md)
-* WolframAlpha
+* [WolframAlpha](documentation/WolframAlpha.md)
 * [Credentials](documentation/Credentials.md)
 
