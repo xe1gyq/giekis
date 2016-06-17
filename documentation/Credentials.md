@@ -33,8 +33,6 @@ password =
 [telegram]
 token = 
 
-# Wit
-#
 [wit]
 accesstoken=
 
