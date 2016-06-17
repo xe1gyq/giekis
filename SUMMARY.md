@@ -4,7 +4,7 @@
 * [Introduction](documentation/Introduction.md)
 * Setup
    * Automated
-   * Manual
+   * [Manual](Manual.md)
 * [Credentials](documentation/Credentials.md)
    * [Gmail](documentation/Gmail.md)
    * [Google](documentation/Google.md)
