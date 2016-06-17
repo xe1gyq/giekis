@@ -45,7 +45,18 @@ root@edison:~/GiekIs#
 
 ```sh
 root@edison:~/GiekIs# cat requirements.opkg
-opkg install python-opencv                                                      
+opkg install python-dev 
+opkg install python-opencv
+opkg install libxft-dev
+opkg install libpng-dev 
+opkg install alsa-utils 
+opkg install libjack
+opkg install --nodeps jack-dev 
+opkg install libportaudio-dev
+opkg install flac-dev
+opkg install espeak 
+opkg install mpg123
+opkg install fswebcam
 ```
 
 ```sh
