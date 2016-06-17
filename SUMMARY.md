@@ -5,8 +5,8 @@
 * [Credentials](documentation/Credentials.md)
    * [Gmail](documentation/Gmail.md)
    * [Google](documentation/Google.md)
+   * [Mashape](documentation/Mashape.md)
    * Tbd
-* [Mashape](documentation/Mashape.md)
 * [Telegram](documentation/Telegram.md)
 * [Twitter](documentation/Twitter.md)
 * [VoiceRss](documentation/VoiceRss.md)
