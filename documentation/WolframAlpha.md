@@ -1,5 +1,7 @@
 # WolframAlpha
 
+> Wolfram|Alpha is more than a search engine. It gives you access to the world's facts and data and calculates answers across a range of topics, including science 
+
 ```sh
 # WolframAlpha
 #
