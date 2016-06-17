@@ -4,8 +4,8 @@
 * [Introduction](documentation/Introduction.md)
 * [Credentials](documentation/Credentials.md)
    * [Gmail](documentation/Gmail.md)
+   * [Google](documentation/Google.md)
    * Tbd
-* [Google](documentation/Google.md)
 * [Mashape](documentation/Mashape.md)
 * [Telegram](documentation/Telegram.md)
 * [Twitter](documentation/Twitter.md)
