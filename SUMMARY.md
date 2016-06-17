@@ -3,8 +3,8 @@
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
 * Setup
-   * Manual
    * Automated
+   * Manual
 * [Credentials](documentation/Credentials.md)
    * [Gmail](documentation/Gmail.md)
    * [Google](documentation/Google.md)
