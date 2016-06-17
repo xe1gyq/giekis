@@ -1,6 +1,6 @@
 # Google
 
-### Google Cloud Platform Dashboard
+# Googe Cloud Platform Dashboard
 
 - Go to [Cloud Vision API](https://cloud.google.com/vision/)
   - Try it for Free
