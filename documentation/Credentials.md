@@ -1,7 +1,5 @@
 # Credentials
 
-# Credentials
-
 ```sh
 root@edison:~/myproject# nano core/configuration/credentials.config
 ```
