@@ -1,6 +1,6 @@
 # Wit.Ai
 
-> Wit.ai makes it easy for developers to build a Siri-like speech interface for their app or device. It's an API that turns natural language (speech or messages) into actionable data. [Homepage]()
+> Wit.ai makes it easy for developers to build a Siri-like speech interface for their app or device. It's an API that turns natural language (speech or messages) into actionable data. [Homepage](https://wit.ai/)
 
 - Go to [wit.ai](https://wit.ai/)
   - Sign up / Log in
