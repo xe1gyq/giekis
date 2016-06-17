@@ -1,4 +1,4 @@
 # Gmail
 
-- [](https://developers.google.com/gmail/api/auth/about-auth)
+- [Authorizing Your App with Gmail](https://developers.google.com/gmail/api/auth/about-auth)
 
