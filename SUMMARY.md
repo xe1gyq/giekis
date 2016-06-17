@@ -6,9 +6,9 @@
    * [Gmail](documentation/Gmail.md)
    * [Google](documentation/Google.md)
    * [Mashape](documentation/Mashape.md)
+   * [Telegram](documentation/Telegram.md)
    * Tbd
 * [Credentials](documentation/Credentials.md)
-   * [Telegram](documentation/Telegram.md)
    * [Twitter](documentation/Twitter.md)
    * [VoiceRss](documentation/VoiceRss.md)
    * [Wit.Ai](documentation/WitAi.md)
