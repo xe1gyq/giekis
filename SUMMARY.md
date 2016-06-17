@@ -2,6 +2,7 @@
 
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
+* APIs
 * [Credentials](documentation/Credentials.md)
    * [Gmail](documentation/Gmail.md)
    * [Google](documentation/Google.md)
@@ -15,5 +16,4 @@
    * [Automated](documentation/Automated.md)
    * [Manual](Manual.md)
 * [Audio](documentation/Audio.md)
-* APIs
 
