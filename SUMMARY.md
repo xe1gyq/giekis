@@ -10,4 +10,5 @@
 * [Wit.Ai](documentation/WitAi.md)
 * [WolframAlpha](documentation/WolframAlpha.md)
 * [Credentials](documentation/Credentials.md)
+* Gmail
 
