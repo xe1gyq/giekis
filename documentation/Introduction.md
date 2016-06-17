@@ -48,7 +48,8 @@ root@edison:~/GiekIs# cat requirements.opkg
 opkg install python-dev 
 opkg install python-opencv
 opkg install libxft-dev
-opkg install libpng-dev 
+opkg install libpng-dev
+opkg install libjpeg-dev
 opkg install alsa-utils 
 opkg install libjack
 opkg install --nodeps jack-dev 
