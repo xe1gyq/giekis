@@ -1,5 +1,7 @@
 # Google
 
+- [Google Text to Speech](https://pypi.python.org/pypi/gTTS)
+
 # Googe Cloud Platform Dashboard
 
 ## Google Cloud Vision API
