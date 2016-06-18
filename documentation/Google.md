@@ -1,8 +1,5 @@
 # Google
 
-# hs_11342026_2
-# mav2aten
-# mav14aten
 
 - [Google Text to Speech](https://pypi.python.org/pypi/gTTS)
 
