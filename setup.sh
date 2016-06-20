@@ -2,8 +2,8 @@ echo "Welcome to Grove Indoor Environment Kit Intelligent System"
 
 git clone https://github.com/xe1gyq/GiekIs.git
 cd GiekIs/
-pip install -r requirements.pip
 sh requirements.opkg
+pip install -r requirements.pip
 git clone https://github.com/xe1gyq/core.git
 
 echo
