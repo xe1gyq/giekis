@@ -13,8 +13,8 @@ import pyupm_i2clcd as lcd
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from wit import Wit
 
-from core.xcamera import takePhoto
-from core.xfacerecognition import recognizeFaces
+# from core.xcamera import takePhoto
+# from core.xfacerecognition import recognizeFaces
 from core.xspeechrecognition import recognizeSpeech
 from core.xsay import isay
 from core.xvoice import recordAudio
