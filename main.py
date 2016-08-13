@@ -28,9 +28,14 @@ def functionLight(bot, update):
     luxes = light.value()
     bot.sendMessage(update.message.chat_id, text='Light ' + str(luxes))
 
-def functionSpeaker(bot, update):
-    speaker.playSound('c', True, "med")
-    bot.sendMessage(update.message.chat_id, text='Sound Reproduced!')
+def functionMessage(bot, update):
+    bot.sendMessage(update.message.chat_id, text=message)
+
+def functionRelay(bot, update):
+    relay.on()
+    time.sleep(2)
+    relay.off()
+    bot.sendMessage(update.message.chat_id, text='Relay Used!')
 
 def functionEcho(bot, update):
     bot.sendMessage(update.message.chat_id, text=update.message.text)
@@ -52,10 +57,13 @@ if __name__ == '__main__':
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("light", functionLight))
-    dp.add_handler(CommandHandler("speaker", functionSpeaker))
+    dp.add_handler(CommandHandler("message", functionMessage))
+    dp.add_handler(CommandHandler("relay", functionRelay))
     dp.add_handler(MessageHandler([Filters.text], functionEcho))
 
     updater.start_polling()
+
+    message = "Hi! I'm GiekIe!"
 
     while True:
 
@@ -66,7 +74,6 @@ if __name__ == '__main__':
 
         if button.value() is 1:
             display.setColor(255, 0, 0)
-            message = "Hi! I'm GiekIe!"
             display.setCursor(0,0)
             display.write(str(message))
             relay.on()
@@ -74,12 +81,3 @@ if __name__ == '__main__':
             relay.off()
 
     updater.idle()
-
-'''
-        luxes = light.value()
-        display.setColor(255, 0, 0)
-        display.setCursor(0,0)
-        display.write('Light ' + str(luxes))
-        print 'Light ' + str(luxes)
-        time.sleep(1)
-'''
