@@ -13,21 +13,15 @@ import pyupm_i2clcd as lcd
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from wit import Wit
 
-# from core.xcamera import takePhoto
-# from core.xfacerecognition import recognizeFaces
-from core.xspeechrecognition import recognizeSpeech
-from core.xsay import isay
-from core.xvoice import recordAudio
-from core.xvoice import playAudio
 from core.xwolfram import askWolfram
 
 credentials = ConfigParser.ConfigParser()
 credentialsfile = "core/configuration/credentials.config"
 credentials.read(credentialsfile)
+
 button = grove.GroveButton(8)
 display = lcd.Jhd1313m1(0, 0x3E, 0x62)
 light = grove.GroveLight(0)
-speaker = upmGrovespeaker.GroveSpeaker(6)
 
 def functionLight(bot, update):
     luxes = light.value()
@@ -50,36 +44,6 @@ def exitHandler():
 atexit.register(exitHandler)
 signal.signal(signal.SIGINT, SIGINTHandler)
 
-def say(session_id, context, msg):
-    print(msg)
-
-def merge(session_id, context, entities, msg):
-    return context
-
-def error(session_id, context, e):
-    print(str(e))
-
-def witaiLight(session_id, context):
-    luxes = light.value()
-    message = "Light value is " + str(luxes)
-    isay("english", message)    
-    context['forecast'] = 'sunny'
-    return context
-
-def witaiSpeaker(session_id, context):
-    print "Play Sound"
-    speaker.playSound('c', True, "med")
-    context['forecast'] = 'sunny'
-    return context
-
-actions = {
-    'say': say,
-    'merge': merge,
-    'error': error,
-    'witaiLight': witaiLight,
-    'witaiSpeaker': witaiSpeaker
-}
-
 if __name__ == '__main__':
 
     credential = credentials.get("telegram", "token")
@@ -92,26 +56,21 @@ if __name__ == '__main__':
 
     updater.start_polling()
 
-    credential = credentials.get("witai", "ServerAccessToken")
-    client = Wit(credential, actions)
-
-    session_id = 'my-user-id-42'
-
     while True:
 
         luxes = light.value()
         luxes = int(luxes)    
         display.setColor(luxes, luxes, luxes)
+        display.clear()
 
         if button.value() is 1:
-            isay("english", "Hi! This is GiekIe! How can I help?")
-            message = recognizeSpeech()
-            display.clear()
+            display.setColor(255, 0, 0)
+            message = "Hi! I'm GiekIe!"
             display.setCursor(0,0)
             display.write(str(message))
-            client.run_actions(session_id, message, {})
+            time.sleep(1)
 
-    #updater.idle()
+    updater.idle()
 
 '''
         luxes = light.value()
