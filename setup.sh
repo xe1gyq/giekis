@@ -6,6 +6,7 @@ pip install pip --upgrade
 sh requirements.opkg
 pip install -r requirements.pip
 git clone https://github.com/xe1gyq/core.git
+git checkout -b basic origin/basic
 
 echo
 echo "Now go to GiekIs directory to get started!"
